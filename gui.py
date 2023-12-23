@@ -95,6 +95,7 @@ def gui():
             df = read_document(document_path) 
             if df is not None:
                 document_uploader['-IsLoaded-'].update("Iam Extracted The DataFrame Successfully")
+                print(df)
 
 
     document_uploader.close()
